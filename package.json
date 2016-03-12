@@ -1,0 +1,33 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "Website Optimization",
+  "main": "index.html",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-touch": "^0.1.0"
+  },
+  "devDependencies": {
+    "grunt-concat": "^0.1.6",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-newer": "^1.1.2",
+    "grunt-newer-explicit": "^0.9.4",
+    "grunt-pagespeed": "^2.0.0",
+    "load-grunt-tasks": "^3.4.1",
+    "ngrok": "^2.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awnallah/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "author": "Hamzah Awnallah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Awnallah/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/Awnallah/frontend-nanodegree-mobile-portfolio#readme"
+}
