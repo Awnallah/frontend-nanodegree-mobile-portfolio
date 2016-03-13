@@ -10,11 +10,16 @@
   "devDependencies": {
     "grunt-concat": "^0.1.6",
     "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.0",
     "grunt-contrib-uglify": "^1.0.0",
     "grunt-newer": "^1.1.2",
     "grunt-newer-explicit": "^0.9.4",
     "grunt-pagespeed": "^2.0.0",
+    "imagemin-mozjpeg": "^5.1.0",
+    "imagemin-pngquant": "^4.2.2",
     "load-grunt-tasks": "^3.4.1",
+    "mozjpeg": "^4.1.1",
     "ngrok": "^2.1.4"
   },
   "scripts": {

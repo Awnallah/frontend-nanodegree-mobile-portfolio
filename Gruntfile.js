@@ -33,24 +33,28 @@ module.exports = function (grunt) {
                 src: [
                     'views/css/*'
                 ],
-                dest: 'views/build/combined.css'
-            },
-            js: {
-                src: [
-          'js/*'
-        ],
-                dest: 'build/combined.js'
-            },
-            js_views: {
-                src: [
-                    'views/js/*'
-                ],
-                dest: 'views/build/combined.js'
+                dest: 'dev/views/combined.css'
+            }
+        },
+        imagemin: {
+            dynamic: {
+                files: [{
+                    expand: true,
+                    cwd: 'img/',
+                    src: ['**/*.{png,jpg,gif}'],
+                    dest: 'dev/img'
+                },
+                    {
+                        expand: true,
+                        cwd: 'views/images/',
+                        src: ['**/*.{png,jpg,gif}'],
+                        dest: 'dev/views/images/'
+                }]
             }
         }
     });
-
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-newer');
     // Register customer task for ngrok
     grunt.registerTask('psi-ngrok', 'Run pagespeed with ngrok', function () {
@@ -69,5 +73,5 @@ module.exports = function (grunt) {
     });
 
     // Register default tasks
-    grunt.registerTask('default', ['newer:concat', 'psi-ngrok']);
+    grunt.registerTask('default', ['newer:concat', 'newer:imagemin', 'psi-ngrok']);
 }
