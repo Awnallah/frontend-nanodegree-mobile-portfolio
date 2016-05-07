@@ -28,7 +28,7 @@ All optimizations using grunt can be found in the dev folder
 - https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fawnallah.github.io%2Ffrontend-nanodegree-mobile-portfolio%2Fdev%2Fviews%2Fpizza.min.html&tab=mobile
 - https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fawnallah.github.io%2Ffrontend-nanodegree-mobile-portfolio%2Fproject-webperf.html
 - https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fawnallah.github.io%2Ffrontend-nanodegree-mobile-portfolio%2Fproject-2048.html
-- http://awnallah.github.io/frontend-nanodegree-mobile-portfolio/project-mobile.html
+- https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fawnallah.github.io%2Ffrontend-nanodegree-mobile-portfolio%2Fproject-mobile.html
 
 
 ###MIT License
